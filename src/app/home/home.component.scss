@@ -1,4 +1,11 @@
-.header{
-  background: red;
-  border: 1px solid black;
+.header {
+  background-image: url("src/assets/header-image.jpg");
+  background-size: auto;
+  height: 850px;
+}
+.menu-button {
+  color: #90ccc4;
+}
+.menu-button:hover {
+  color: white;
 }
