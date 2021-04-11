@@ -1,0 +1,20 @@
+.menu-button {
+  color: #bcc7c6;
+}
+.menu-button:hover {
+  opacity: 0.5;
+  border: 1px solid #bcc7c6;
+  color: white;
+}
+.header-card {
+  background-color: #6a9277;
+  border-radius: 2px;
+}
+.book-now-button {
+  border-radius: 5px;
+  background-color: yellow;
+  color: black;
+}
+.book-now-button:hover {
+  animation: blinker 1s linear infinit;
+}
