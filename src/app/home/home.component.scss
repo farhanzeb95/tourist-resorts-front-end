@@ -1,3 +1,30 @@
 .image-card {
   height: 300px;
+  box-shadow: 2px 2px 2px 2px rgb(207, 204, 204);
+  // margin-left: 800px;
+}
+.container {
+  padding: 20px;
+}
+.image-style {
+  height: 300px;
+  width: 400px;
+}
+.description {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #444;
+  line-height: 1.6;
+  font-style: italic;
+  overflow-wrap: break-word;
+  text-align: justify;
+}
+.heading{
+  font-style: italic;
+  font-family: '' ;
+}
+.info-container{
+  padding: 12px
 }
