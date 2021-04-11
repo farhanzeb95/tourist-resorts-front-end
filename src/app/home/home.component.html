@@ -1,21 +1,20 @@
-<div class="header">
-  <div fxLayout="row" fxLayoutAlign="end end">
-    <button mat-button class="menu-button" (click)="onAboutUsClick()">ABOUT US</button>
-    <button mat-button class="menu-button">INFO</button>
-    <button mat-button class="menu-button">BLOG</button>
-    <button mat-button class="menu-button">CONTACT US</button>
-    <button mat-button class="menu-button">HOME</button>
+<div fxLayout="column" fxFlexFil>
+  <app-menu-header></app-menu-header>
+  <mat-card>
+    <mat-carousel timings="200ms ease-in" [autoplay]="true" interval="6000" color="white">
+      <mat-carousel-slide *ngFor="let picture of headerSliderPics; let i = index" [image]="picture?.image"
+        overlayColor="#ffffff" [hideOverlay]="false">
+      </mat-carousel-slide>
+    </mat-carousel>
+  </mat-card>
+  <div class="mt-4" fxLayout="row" fxLayoutAlign="space-evenly center">
+    <h2>
+      Home
+    </h2>
+    <mat-card class="image-card">
+      <!-- <img src="../../assets/card-1.png" /> -->
+    </mat-card>
+
   </div>
 </div>
-<div>
-  <p> This is About Us div</p>
-</div>
-<div>
-  <p>This is Info div</p>
-</div>
-<div>
-  <p>This is Blog div</p>
-</div>
-<div>
-  <p>This is Contact Us div</p>
-</div>
+<app-footer></app-footer>
